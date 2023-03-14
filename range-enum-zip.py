@@ -31,7 +31,29 @@ print()
 #***************************************************************************************************************
 harfler = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
-for harf in enumerate()
+for index,harf in enumerate(harfler):
+    if harf == 'e':
+        print("{} harfi {}. indexte".format(harf,index))
+        break
+
+print()
+#***************************************************************************************************************
+
+for i in range(1,10):
+    if i%2==0:
+        pass
+    else:
+        print(i)
+
+print()
+
+for i in range(1,10):
+    if i<5:
+        pass
+    else:
+        print(i)
+
+
 
 
 
